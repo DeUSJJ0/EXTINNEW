@@ -1,5 +1,5 @@
 
-const CONFIG = { whatsapp: "573000000000", company: "Extintores Bogotá" }; // Reemplaza el número por el WhatsApp real, con indicativo 57.
+const CONFIG = { whatsapp: "573160484394", company: "Extintores Bogotá" }; // Reemplaza el número por el WhatsApp real, con indicativo 57.
 document.querySelectorAll("[data-year]").forEach(x=>x.textContent=new Date().getFullYear());
 document.querySelectorAll("[data-wa]").forEach(a=>{a.href=`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent("Hola, quiero información sobre inspección, mantenimiento o recarga de extintores en Bogotá.")}`;});
 const form=document.getElementById("quoteForm");
